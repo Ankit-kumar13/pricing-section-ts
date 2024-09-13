@@ -25,3 +25,54 @@ body {
     text-wrap: balance;
   }
 }
+
+.payment-page-wrapper {
+  padding: 96px;
+}
+
+
+
+.payment-features-heading {
+  padding-bottom: 64px;
+}
+
+.price-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 64px;
+}
+
+@media screen  and (min-width: 769px){
+  .payment-features {
+    padding: 40px 0;
+  }
+}
+
+@media screen  and (min-width: 768px){
+  .features-list {
+    padding: 0 16px;
+  }
+}
+
+@media screen  and (max-width: 768px){
+  .price-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen  and (max-width: 768px){
+  .payment-page-wrapper {
+    padding: 64px 16px;
+  }
+  .payment-features-heading {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen  and (max-width: 375px){
+  .payment-page-wrapper {
+    padding: 48px 12px;
+  }
+}
+
+
